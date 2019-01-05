@@ -3,7 +3,7 @@
     "description": "Quickly deploy a server for hosting cryptoitem metadata (ex. ERC-721 tokenURIs)",
     "repository": "https://github.com/polats/cryptoitem-metadata-server",
     "scripts": {
-      "postdeploy": ""
+      "postdeploy": "bin/init-deployment"
     },
     "success_url": "",
     "addons": [

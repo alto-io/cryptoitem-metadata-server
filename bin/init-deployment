@@ -1,4 +1,5 @@
-#!/usr/bin/env node
+#!/usr/bin/env bash
 
-console.log("Getting env variables...")
-console.log(process.env)
+echo "Initializing the deployment…"
+
+bin/setup-db

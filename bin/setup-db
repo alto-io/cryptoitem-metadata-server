@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-console.log("Getting env variables...")
-console.log(process.env)
+console.log("Getting PUBLIC_URL...")
+console.log(process.env.PUBLIC_URL)
 
 var fs = require('fs')
 fs.readFile("db.json", 'utf8', function (err,data) {
@@ -13,4 +13,7 @@ fs.readFile("db.json", 'utf8', function (err,data) {
   fs.writeFile("db.json", result, 'utf8', function (err) {
      if (err) return console.log(err);
   });
+
+  console.log("[New file]")
+  console.log(result);
 });

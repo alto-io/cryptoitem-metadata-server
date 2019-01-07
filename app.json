@@ -11,7 +11,7 @@
     "env": {
       "PUBLIC_URL": {
         "description": "The HTTPS URL of this app: either your custom domain or default 'herokuapp.com' hostname.",
-        "value": "cimds.herokuapp.com",
+        "value": "https://cimds.herokuapp.com",
         "required": true
       }
     }

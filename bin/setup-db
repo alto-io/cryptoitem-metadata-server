@@ -10,7 +10,7 @@ fs.readFile("db.json", 'utf8', function (err,data) {
   }
   var result = data.replace(/PUBLIC_URL/g, process.env.PUBLIC_URL);
 
-  fs.writeFile(data, result, 'utf8', function (err) {
+  fs.writeFile(("db.json", result, 'utf8', function (err) {
      if (err) return console.log(err);
   });
 });

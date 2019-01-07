@@ -1,4 +1,3 @@
-#!/usr/bin/env bash
+#!/usr/bin/env node
 
-echo "Initializing the deployment…"
-echo "Done!"
+console.log(process.env)

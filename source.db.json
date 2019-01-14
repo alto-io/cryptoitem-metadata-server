@@ -3,8 +3,8 @@
     {
       "id": 1,
       "description": "Bard Armor",
-      "external_url": "http://cimds.herokuapp.com",
-      "image": "http://cimds.herokuapp.com/images/Bard_Armor.png",
+      "external_url": "http://localhost:3000",
+      "image": "http://localhost:3000/images/Bard_Armor.png",
       "name": "Bard Armor",
       "attributes": [
         {
@@ -43,8 +43,8 @@
     {
       "id": 2,
       "description": "Bard Lute",
-      "external_url": "http://cimds.herokuapp.com",
-      "image": "http://cimds.herokuapp.com/images/Bard_Lute.png",
+      "external_url": "http://localhost:3000",
+      "image": "http://localhost:3000/images/Bard_Lute.png",
       "name": "Bard Lute",
       "attributes": [
         {
@@ -79,8 +79,8 @@
     {
       "id": 3,
       "description": "Bard Shortsword",
-      "external_url": "http://cimds.herokuapp.com",
-      "image": "http://cimds.herokuapp.com/images/Bard_Shortsword.png",
+      "external_url": "http://localhost:3000",
+      "image": "http://localhost:3000/images/Bard_Shortsword.png",
       "name": "Bard Shortsword",
       "attributes": [
         {
@@ -119,8 +119,8 @@
     {
       "id": 4,
       "description": "Cleric Armor",
-      "external_url": "http://cimds.herokuapp.com",
-      "image": "http://cimds.herokuapp.com/images/Cleric_Armor.png",
+      "external_url": "http://localhost:3000",
+      "image": "http://localhost:3000/images/Cleric_Armor.png",
       "name": "Cleric Armor",
       "attributes": [
         {
@@ -159,8 +159,8 @@
     {
       "id": 5,
       "description": "Cleric Mace",
-      "external_url": "http://cimds.herokuapp.com",
-      "image": "http://cimds.herokuapp.com/images/Cleric_Mace.png",
+      "external_url": "http://localhost:3000",
+      "image": "http://localhost:3000/images/Cleric_Mace.png",
       "name": "Cleric Mace",
       "attributes": [
         {
@@ -199,8 +199,8 @@
     {
       "id": 6,
       "description": "Cleric Scroll",
-      "external_url": "http://cimds.herokuapp.com",
-      "image": "http://cimds.herokuapp.com/images/Cleric_Scroll.png",
+      "external_url": "http://localhost:3000",
+      "image": "http://localhost:3000/images/Cleric_Scroll.png",
       "name": "Cleric Scroll",
       "attributes": [
         {
@@ -212,8 +212,8 @@
     {
       "id": 7,
       "description": "Fighter Armor",
-      "external_url": "http://cimds.herokuapp.com",
-      "image": "http://cimds.herokuapp.com/images/Fighter_Armor.png",
+      "external_url": "http://localhost:3000",
+      "image": "http://localhost:3000/images/Fighter_Armor.png",
       "name": "Fighter Armor",
       "attributes": [
         {
@@ -252,8 +252,8 @@
     {
       "id": 8,
       "description": "Fighter Shield",
-      "external_url": "http://cimds.herokuapp.com",
-      "image": "http://cimds.herokuapp.com/images/Fighter_Shield.png",
+      "external_url": "http://localhost:3000",
+      "image": "http://localhost:3000/images/Fighter_Shield.png",
       "name": "Fighter Shield",
       "attributes": [
         {
@@ -282,8 +282,8 @@
     {
       "id": 9,
       "description": "Fighter Sword",
-      "external_url": "http://cimds.herokuapp.com",
-      "image": "http://cimds.herokuapp.com/images/Fighter_Sword.png",
+      "external_url": "http://localhost:3000",
+      "image": "http://localhost:3000/images/Fighter_Sword.png",
       "name": "Fighter Sword",
       "attributes": [
         {
@@ -322,8 +322,8 @@
     {
       "id": 10,
       "description": "Mage Armor",
-      "external_url": "http://cimds.herokuapp.com",
-      "image": "http://cimds.herokuapp.com/images/Mage_Armor.png",
+      "external_url": "http://localhost:3000",
+      "image": "http://localhost:3000/images/Mage_Armor.png",
       "name": "Fighter Armor",
       "attributes": [
         {
@@ -362,8 +362,8 @@
     {
       "id": 8,
       "description": "Mage Spellbook",
-      "external_url": "http://cimds.herokuapp.com",
-      "image": "http://cimds.herokuapp.com/images/Mage_Spellbook.png",
+      "external_url": "http://localhost:3000",
+      "image": "http://localhost:3000/images/Mage_Spellbook.png",
       "name": "Fighter Shield",
       "attributes": [
         {
@@ -379,8 +379,8 @@
     {
       "id": 9,
       "description": "Mage Wand",
-      "external_url": "http://cimds.herokuapp.com",
-      "image": "http://cimds.herokuapp.com/images/Mage_Wand.png",
+      "external_url": "http://localhost:3000",
+      "image": "http://localhost:3000/images/Mage_Wand.png",
       "name": "Mage Wand",
       "attributes": [
         {

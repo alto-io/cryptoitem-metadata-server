@@ -8,7 +8,7 @@
     "dev": "nodemon index.js"
   },
   "keywords": [
-    "json-server,heroku, node, REST API, cryptoitem, erc-721", "opensea"
+    "json-server","heroku", "node", "REST API", "cryptoitem", "erc-721", "opensea"
   ],
   "author": "Paul Gadi",
   "license": "MIT",

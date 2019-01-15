@@ -1,4 +1,4 @@
-require('dotenv').config()
+const serverURL = process.argv[2];
 
 var fs = require('fs')
 
@@ -8,7 +8,7 @@ fs.readFile("local.db.json", 'utf8', function (err,data) {
   if (err) {
     return console.log(err);
   }
-  var result = data.replace(/localhost:3000/g, process.env.PUBLIC_URL);
+  var result = data.replace(/localhost:3000/g, serverURL);
 
   fs.writeFile("db.json", result, 'utf8', function (err) {
      if (err) return console.log(err);

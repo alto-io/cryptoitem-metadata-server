@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node index.js local.db.json",
     "dev": "nodemon index.js",
-    "replace_url": "node scipts/replace_url.js",
-    "deploy": "npm run replace_url && git heroku push master"
+    "deploy": "node scripts/replace_url $npm_package_config_server_url && git heroku push master",
+    "deploy-windows": "node scripts/replace_url %npm_package_config_server_url% && git push heroku master"
   },
   "keywords": [
     "json-server","heroku", "node", "REST API", "cryptoitem", "erc-721", "opensea"
@@ -16,5 +16,8 @@
   "license": "MIT",
   "dependencies": {
     "json-server": "^0.12.1"
+  },
+  "config": {
+    "server_url": "cimds2.herokuapp.com"
   }
 }

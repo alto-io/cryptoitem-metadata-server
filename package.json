@@ -4,8 +4,10 @@
   "description": "Quickly deploy a server for hosting cryptoitem metadata (ex. ERC-721 tokenURIs)",
   "main": "server.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js local.db.json",
+    "dev": "nodemon index.js",
+    "replace_url": "node scipts/replace_url.js",
+    "deploy": "npm run replace_url && git heroku push master"
   },
   "keywords": [
     "json-server","heroku", "node", "REST API", "cryptoitem", "erc-721", "opensea"

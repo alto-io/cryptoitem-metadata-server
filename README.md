@@ -9,3 +9,7 @@ npm start
 ```
 
 Then browse to http://localhost:3000/item
+
+### Web demo
+
+https://cimds.herokuapp.com/item

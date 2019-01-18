@@ -360,7 +360,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 11,
       "description": "Mage Spellbook",
       "external_url": "http://localhost:3000",
       "image": "http://localhost:3000/images/Mage_Spellbook.png",
@@ -377,7 +377,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 12,
       "description": "Mage Wand",
       "external_url": "http://localhost:3000",
       "image": "http://localhost:3000/images/Mage_Wand.png",

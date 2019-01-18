@@ -29,15 +29,15 @@
           "value": 1
         },
         {
-          "display_type": "boost_number", 
-          "trait_type": "Speed", 
+          "display_type": "boost_number",
+          "trait_type": "Speed",
           "value": 50
-        }, 
+        },
         {
-          "display_type": "boost_percentage", 
-          "trait_type": "Chance_To_Dodge", 
+          "display_type": "boost_percentage",
+          "trait_type": "Chance_To_Dodge",
           "value": 25
-        }        
+        }
       ]
     },
     {
@@ -65,15 +65,15 @@
           "value": 1
         },
         {
-          "display_type": "boost_number", 
-          "trait_type": "Effect_Radius", 
+          "display_type": "boost_number",
+          "trait_type": "Effect_Radius",
           "value": 5
-        }, 
+        },
         {
-          "display_type": "boost_percentage", 
-          "trait_type": "Effect_Boost", 
+          "display_type": "boost_percentage",
+          "trait_type": "Effect_Boost",
           "value": 20
-        }        
+        }
       ]
     },
     {
@@ -105,15 +105,15 @@
           "value": 1
         },
         {
-          "display_type": "boost_number", 
-          "trait_type": "Armor_Piercing", 
+          "display_type": "boost_number",
+          "trait_type": "Armor_Piercing",
           "value": 10
-        }, 
+        },
         {
-          "display_type": "boost_percentage", 
-          "trait_type": "Chance_To_Hit", 
+          "display_type": "boost_percentage",
+          "trait_type": "Chance_To_Hit",
           "value": 50
-        }        
+        }
       ]
     },
     {
@@ -145,15 +145,15 @@
           "value": 1
         },
         {
-          "display_type": "boost_number", 
-          "trait_type": "Speed", 
+          "display_type": "boost_number",
+          "trait_type": "Speed",
           "value": 10
-        }, 
+        },
         {
-          "display_type": "boost_percentage", 
-          "trait_type": "Chance_To_Dodge", 
+          "display_type": "boost_percentage",
+          "trait_type": "Chance_To_Dodge",
           "value": 10
-        }        
+        }
       ]
     },
     {
@@ -185,15 +185,15 @@
           "value": 1
         },
         {
-          "display_type": "boost_number", 
-          "trait_type": "Blunt_Damage", 
+          "display_type": "boost_number",
+          "trait_type": "Blunt_Damage",
           "value": 10
-        }, 
+        },
         {
-          "display_type": "boost_percentage", 
-          "trait_type": "Chance_To_Hit", 
+          "display_type": "boost_percentage",
+          "trait_type": "Chance_To_Hit",
           "value": 30
-        }        
+        }
       ]
     },
     {
@@ -206,7 +206,7 @@
         {
           "trait_type": "Uses",
           "value": 3
-        }        
+        }
       ]
     },
     {
@@ -238,15 +238,15 @@
           "value": 1
         },
         {
-          "display_type": "boost_number", 
-          "trait_type": "Speed", 
+          "display_type": "boost_number",
+          "trait_type": "Speed",
           "value": 5
-        }, 
+        },
         {
-          "display_type": "boost_percentage", 
-          "trait_type": "Chance_To_Dodge", 
+          "display_type": "boost_percentage",
+          "trait_type": "Chance_To_Dodge",
           "value": 10
-        }        
+        }
       ]
     },
     {
@@ -276,7 +276,7 @@
           "display_type": "number",
           "trait_type": "Rarity",
           "value": 2
-        }  
+        }
       ]
     },
     {
@@ -308,15 +308,15 @@
           "value": 1
         },
         {
-          "display_type": "boost_number", 
-          "trait_type": "Critical_Modifier", 
+          "display_type": "boost_number",
+          "trait_type": "Critical_Modifier",
           "value": 5
-        }, 
+        },
         {
-          "display_type": "boost_percentage", 
-          "trait_type": "Chance_To_Hit", 
+          "display_type": "boost_percentage",
+          "trait_type": "Chance_To_Hit",
           "value": 30
-        }        
+        }
       ]
     },
     {
@@ -348,15 +348,15 @@
           "value": 1
         },
         {
-          "display_type": "boost_number", 
-          "trait_type": "Magic", 
+          "display_type": "boost_number",
+          "trait_type": "Magic",
           "value": 5
-        }, 
+        },
         {
-          "display_type": "boost_percentage", 
-          "trait_type": "Spell_Damage", 
+          "display_type": "boost_percentage",
+          "trait_type": "Spell_Damage",
           "value": 20
-        }        
+        }
       ]
     },
     {
@@ -405,16 +405,16 @@
           "value": 3
         },
         {
-          "display_type": "boost_number", 
-          "trait_type": "Spell_Damage", 
+          "display_type": "boost_number",
+          "trait_type": "Spell_Damage",
           "value": 5
-        }, 
+        },
         {
-          "display_type": "boost_percentage", 
-          "trait_type": "Chance_To_Break", 
+          "display_type": "boost_percentage",
+          "trait_type": "Chance_To_Break",
           "value": 20
-        }        
+        }
       ]
-    }   
+    }
   ]
 }

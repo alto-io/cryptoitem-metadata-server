@@ -11,7 +11,13 @@
     "deploy-windows": "node scripts/replace_url %npm_package_config_server_url% && npm run commit-db-json && git push heroku master"
   },
   "keywords": [
-    "json-server","heroku", "node", "REST API", "cryptoitem", "erc-721", "opensea"
+    "json-server",
+    "heroku",
+    "node",
+    "REST API",
+    "cryptoitem",
+    "erc-721",
+    "opensea"
   ],
   "author": "Paul Gadi",
   "license": "MIT",

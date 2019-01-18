@@ -1,0 +1,48 @@
+
+{
+  "title": "ERC-721 (Opensea)",
+  "type": "object",
+  "id": "tokenid",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "external_url": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "attributes": {
+      "type": "array",
+      "format": "table",
+      "title": "attributes",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "properties": {
+          "display_type": {
+            "type": "string",
+            "enum": [
+              "property",
+              "ranking",
+              "number",
+              "boost_number",
+              "boost_percentage"
+            ],
+            "default": "property"
+          },
+          "trait_type": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

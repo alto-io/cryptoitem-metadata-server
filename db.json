@@ -363,7 +363,7 @@
       "id": 11,
       "description": "Mage Spellbook",
       "external_url": "http://cimds.herokuapp.com",
-      "image": "http://cimds.herokuapp.com/images/Mage_Spellbook.png",
+      "image": "http://cimds.herokuapp.com/images/Mage_SpellBook.png",
       "name": "Fighter Shield",
       "attributes": [
         {

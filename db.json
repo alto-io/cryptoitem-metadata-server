@@ -416,5 +416,37 @@
         }
       ]
     }
+  ],
+  "factory": [
+    {
+      "id": 0,
+      "description": "Buy a single item",
+      "external_url": "http://cimds.herokuapp.com",
+      "image": "http://cimds.herokuapp.com/images/Loot_Symbol_Single.png",
+      "name": "Buy 1 Loot Item"
+    },
+    {
+      "id": 1,
+      "description": "Buy multiple items",
+      "external_url": "http://cimds.herokuapp.com",
+      "image": "http://cimds.herokuapp.com/images/Loot_Symbol_Multi.png",
+      "name": "Buy 4 Loot Items"
+    },
+    {
+      "id": 2,
+      "description": "Buy Treasure Chest containing 3 items",
+      "external_url": "http://cimds.herokuapp.com",
+      "image": "http://cimds.herokuapp.com/images/Treasure_Chest.png",
+      "name": "Buy Treasure Chest"
+    }
+  ],
+  "box": [
+    {
+      "id": 0,
+      "description": "This treasure chest is yours, trade or open it!",
+      "external_url": "http://cimds.herokuapp.com",
+      "image": "http://cimds.herokuapp.com/images/Treasure_Chest.png",
+      "name": "Treasure Chest"
+    }
   ]
 }

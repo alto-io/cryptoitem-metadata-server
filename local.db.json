@@ -1,4 +1,13 @@
 {
+  "config": {
+    "server_url": "cimds.herokuapp.com",
+    "collection_name": "Cryptoitem Demo Collection",
+    "collection_symbol": "CIDC",
+    "enforce_max_supply": true,
+    "multi_cryptoitem_quantity1": 4,
+    "max_cryptoitem_supply": 12,
+    "cryptoitems_per_box": 3
+  },
   "item": [
     {
       "id": 1,

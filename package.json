@@ -7,10 +7,8 @@
     "start": "node index.js local.db.json",
     "dev": "nodemon index.js",
     "commit-db-json": "git add db.json && git commit -m updatedb",
-    "replace-url": "node scripts/replace_url $npm_package_config_server_url \"$npm_package_config_collection_name\" \"$npm_package_config_collection_symbol\"",
-    "replace-url-windows": "node scripts/replace_url %npm_package_config_server_url% \"%npm_package_config_collection_name%\" \"%npm_package_config_collection_symbol%\"",
-    "deploy": "npm run replace-url && npm run commit-db-json && git heroku push master",
-    "deploy-windows": "npm run replace-url-windows && npm run commit-db-json && git push heroku master"
+    "replace-url": "node scripts/replace_url",
+    "deploy": "npm run replace-url && npm run commit-db-json && git heroku push master"
   },
   "keywords": [
     "json-server",
@@ -27,14 +25,5 @@
     "@json-editor/json-editor": "^1.3.2",
     "express": "^4.16.4",
     "json-server": "^0.12.1"
-  },
-  "config": {
-    "server_url": "cimds.herokuapp.com",
-    "collection_name": "Alto Test Cryptoitems",
-    "collection_symbol": "ATC",
-    "enforce_max_supply": true,
-    "multi_cryptoitem_quantity1": 4,
-    "max_cryptoitem_supply": 12,
-    "cryptoitems_per_box": 3
   }
 }

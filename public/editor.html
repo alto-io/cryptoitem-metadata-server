@@ -5,6 +5,8 @@
     <meta charset="utf-8" />
     <title>Advanced JSON Editor Example</title>
     <script src="https://cdn.jsdelivr.net/npm/@json-editor/json-editor/dist/jsoneditor.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
   </head>
   <body>
     <h1>Advanced JSON Editor Example</h1>
@@ -26,33 +28,64 @@
     <div id='editor_holder'></div>
 
     <script>
+
+
       // This is the starting value for the editor
       // We will use this to seed the initial editor
       // and to provide a "Restore to Default" button.
+
+      var jsonItems = [];
+      $.getJSON( "item", function( data){
+        jsonItems = data;
+        console.log(jsonItems);
+      });
+
+
+
       var starting_value = [
         {
-          name: "John Smith",
-          age: 35,
-          gender: "male",
-          location: {
-            city: "San Francisco",
-            state: "California",
-            citystate: ""
-          },
-          pets: [
+          "id": 1,
+          "description": "Bard Armor",
+          "external_url": "http://localhost:3000",
+          "image": "http://localhost:3000/images/Bard_Armor.png",
+          "name": "Bard Armor",
+          "attributes": [
             {
-              name: "Spot",
-              type: "dog",
-              fixed: true
+              "trait_type": "Class",
+              "value": "Bard"
             },
             {
-              name: "Whiskers",
-              type: "cat",
-              fixed: false
+              "trait_type": "Item_Type",
+              "value": "Armor"
+            },
+            {
+              "trait_type": "Defense",
+              "value": 2
+            },
+            {
+              "trait_type": "Weight",
+              "value": 8
+            },
+            {
+              "display_type": "number",
+              "trait_type": "Rarity",
+              "value": 1
+            },
+            {
+              "display_type": "boost_number",
+              "trait_type": "Speed",
+              "value": 50
+            },
+            {
+              "display_type": "boost_percentage",
+              "trait_type": "Chance_To_Dodge",
+              "value": 25
             }
           ]
         }
       ];
+
+      console.log(starting_value);
 
       // Initialize the editor
       var editor = new JSONEditor(document.getElementById('editor_holder'),{
@@ -65,7 +98,7 @@
           title: "People",
           format: "tabs",
           items: {
-            title: "Person",
+            title: "Cryptoitem",
             headerTemplate: "{{i}} - {{self.name}}",
             oneOf: [
               {

@@ -1,6 +1,8 @@
-const serverURL = process.argv[2];
-const collectionName = process.argv[3];
-const collectionSymbol = process.argv[4];
+var config = require("../local.db.json").config;
+
+const serverURL = config.server_url;
+const collectionName = config.collection_name;
+const collectionSymbol = config.collection_symbol;
 
 var fs = require('fs')
 

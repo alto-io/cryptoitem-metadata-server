@@ -8,7 +8,7 @@
     "dev": "nodemon index.js",
     "commit-db-json": "git add db.json && git commit -m updatedb",
     "replace-url": "node scripts/replace_url",
-    "deploy": "npm run replace-url && npm run commit-db-json && git heroku push master"
+    "deploy": "npm run replace-url && npm run commit-db-json && git push heroku master"
   },
   "keywords": [
     "json-server",

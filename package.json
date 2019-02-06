@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js local.db.json",
     "dev": "nodemon index.js",
-    "commit-db-json": "git add db.json && git add index.html && git commit -m updatedb",
+    "commit-db-json": "git add db.json public/index.html && git commit -m updatedb",
     "replace-url": "node scripts/replace_url",
     "deploy": "npm run replace-url && npm run commit-db-json && git push heroku master"
   },
